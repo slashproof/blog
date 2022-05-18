@@ -96,7 +96,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Slashproof. Built with good vibes in Austin, TX.`,
+				copyright: `Copyright ©${new Date().getFullYear()} Slashproof. Built with good vibes in Austin, TX.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
