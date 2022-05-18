@@ -54,6 +54,16 @@
 	color: white;
 }
 
+article[itemprop='blogPost'] {
+	padding: 0 10px;
+}
+
+html.blog-post-page .container > .row > aside,
+html.blog-post-page .container > .row > main {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
 .blog-post-page article[itemprop='blogPost'] {
 	max-width: 720px;
 	margin: 30px auto 0 auto;
@@ -364,6 +374,7 @@ body,
 	text-align: left;
 	max-width: 720px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 
 .section-email {
