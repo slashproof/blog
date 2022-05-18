@@ -77,7 +77,7 @@ html.blog-post-page .container > .row > main {
 	margin-top: 40px;
 }
 
-.container {
+body .container {
 	max-width: 1000px;
 }
 
