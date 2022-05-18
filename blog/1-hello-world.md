@@ -6,4 +6,4 @@ tags: [test]
 hide_table_of_contents: true
 ---
 
-This is my first post, many more to come!
+This is my first post, many more to come! Woo.
