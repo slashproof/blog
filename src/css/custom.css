@@ -1,0 +1,408 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+	--ifm-color-primary: #2c52aa;
+	--ifm-color-primary-dark: #284a99;
+	--ifm-color-primary-darker: #254690;
+	--ifm-color-primary-darkest: #1f3977;
+	--ifm-color-primary-light: #305abb;
+	--ifm-color-primary-lighter: #335ec3;
+	--ifm-color-primary-lightest: #4770cf;
+	--ifm-code-font-size: 95%;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+	--ifm-heading-color: #000;
+	--ifm-font-color-base-inverse: #000;
+	--ifm-color-content: #000;
+	--ifm-font-color-base: #000;
+	--ifm-footer-link-color: #000;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+	--ifm-color-primary: #67c9fe;
+	--ifm-color-primary-dark: #44bcfe;
+	--ifm-color-primary-darker: #32b6fe;
+	--ifm-color-primary-darkest: #02a2f8;
+	--ifm-color-primary-light: #8ad6fe;
+	--ifm-color-primary-lighter: #9cdcfe;
+	--ifm-color-primary-lightest: #d1efff;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+	--ifm-heading-color: #fff;
+	--ifm-font-color-base-inverse: #fff;
+	--ifm-color-content: #fff;
+	--ifm-font-color-base: #fff;
+	--ifm-footer-link-color: #fff;
+}
+
+.button {
+	--ifm-button-background-color: #b2d3ff;
+	--ifm-button-border-color: #b2d3ff;
+	--ifm-color-secondary-dark: #b2d3ff;
+	border: none;
+}
+
+[data-theme='light'] .button {
+	--ifm-button-background-color: #4c70b0;
+	--ifm-button-border-color: #4c70b0;
+	--ifm-color-secondary-dark: #4c70b0;
+	border: none;
+	color: white;
+}
+
+.blog-post-page article[itemprop='blogPost'] {
+	max-width: 720px;
+	margin: 30px auto 0 auto;
+}
+
+.blog-post-page article[itemprop='blogPost'] > header {
+	position: relative;
+}
+
+#post-content {
+	margin-top: 40px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.footer .container {
+	max-width: 720px;
+}
+
+.navbar__logo {
+	height: 35px;
+	width: 35px;
+}
+
+#post-content .blog-icon {
+	position: relative;
+	margin: 70px 0 80px 0;
+}
+
+h1[itemprop='headline'] {
+	margin-bottom: 25px;
+}
+
+h2[itemprop='headline'] a {
+	color: white;
+}
+
+[data-theme='light'] h2[itemprop='headline'] a {
+	color: black;
+}
+
+h1[itemprop='headline'] + div {
+	position: absolute;
+	right: 0;
+	margin: 0;
+	bottom: 18px;
+}
+
+.blog-icon hr {
+	background-color: #505050;
+}
+
+.sp-about-image {
+	max-width: 320px;
+	height: auto;
+	display: block;
+	width: 320px;
+}
+img[alt='Andrew Robbins, creator of Slashproof'] {
+	max-width: 320px;
+	height: auto;
+	display: block;
+	width: 320px;
+}
+
+.sp-about-image + div {
+	margin-left: 25px;
+	flex: 1;
+}
+
+.sp-about-inner {
+	display: flex;
+}
+
+.blog-icon > span {
+	background: #1f212b;
+	border-radius: 50%;
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+[data-theme='light'] .blog-icon > span {
+	background: #fff;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+	background: #2d2d3a;
+	border-radius: 10px;
+}
+
+[data-theme='light'] .navbar__link:hover,
+[data-theme='light'] .navbar__link--active {
+	background: #eaf1ff;
+	color: #3d3d96;
+}
+
+.blog-icon .icon {
+	font-size: 65px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80px;
+	height: 80px;
+	transform: translate(-50%, -50%);
+	line-height: 1.2;
+	text-align: center;
+}
+
+div#post-content li,
+div#post-content code,
+div#post-content blockquote,
+div#post-content p {
+	font-size: 20px;
+}
+
+.blog-icon img {
+	position: absolute;
+	top: -15px;
+	left: 8px;
+	max-width: 70px;
+}
+
+.blog-list-page article[itemprop='blogPost'] header {
+	margin-bottom: 20px;
+}
+
+.blog-list-page .main-wrapper .container {
+	max-width: 720px;
+}
+
+.blog-list-page .main-wrapper .container aside {
+	display: none;
+}
+
+.blog-list-page .main-wrapper .container main {
+	flex: 1;
+	max-width: 100%;
+	width: 100%;
+}
+
+.avatar__photo {
+	filter: brightness(1.1);
+	border: 3px solid #56ebff;
+}
+
+.avatar__subtitle {
+	margin-top: -2px;
+}
+
+[data-theme='light'] .avatar__photo {
+	border: none;
+}
+
+.navbar__logo img {
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	filter: brightness(1.1);
+}
+
+.navbar {
+	padding: 0;
+	height: 70px;
+}
+
+.footer__link-item {
+	padding: 10px 50px 10px 0px;
+}
+
+[data-theme='light'] .footer__link-item,
+[data-theme='light'] .footer__title,
+[data-theme='light'] .footer__bottom {
+	color: #484848;
+}
+
+.hero__subtitle {
+	font-size: 28px;
+}
+
+.hero__subtitle + p {
+	margin: 15px 0 20px;
+	font-size: 22px;
+	border-top: 1px solid #535353;
+	padding-top: 20px;
+}
+
+[data-theme='light'] .hero__subtitle + p {
+	border-color: #ddd;
+}
+
+.hero__subtitle + p + p {
+	font-size: 30px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.navbar__inner {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.navbar__title {
+	font-size: 24px;
+}
+
+.navbar__item {
+	font-size: 18px;
+	margin-left: 6px;
+}
+
+body,
+.navbar,
+.main-wrapper,
+.footer,
+.hero--primary {
+	background-color: white;
+}
+
+[data-theme='dark'] body,
+[data-theme='dark'] .navbar,
+[data-theme='dark'] .main-wrapper,
+[data-theme='dark'] .footer,
+[data-theme='dark'] .hero--primary {
+	background-color: #1f212b;
+}
+
+/* .blog-post-page .container {
+	max-width: 1000px;
+} */
+
+.blog-post-page .main-wrapper .container > .row {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.blog-post-page .container > .row > aside,
+.blog-post-page .container > .row > main {
+	flex: 1;
+	width: 100%;
+	max-width: 100%;
+}
+
+.blog-post-page .main-wrapper aside {
+	display: none;
+}
+
+.footer > .container {
+	border-top: 1px solid #2f2f2f;
+	padding-top: 20px;
+}
+
+[data-theme='light'] .footer > .container {
+	border-color: #d5d5d5;
+}
+
+[data-theme='light'] .sp-signup-text {
+	color: white;
+}
+
+.footer__bottom {
+	margin-top: 50px;
+	font-size: 80%;
+}
+
+#mc_embed_signup {
+	background: #fff;
+	clear: left;
+	font: 14px Helvetica, Arial, sans-serif;
+	width: 500px;
+}
+
+.sp-signup-wrapper {
+	background: #141827;
+	padding: 20px;
+	border-radius: 15px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.blog-post-page .sp-signup-wrapper {
+	margin: 30px auto 0 auto;
+	max-width: 720px;
+}
+
+[data-theme='light'] .sp-signup-wrapper {
+	background: #e0ecf7;
+}
+
+.section-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero__title {
+	font-size: 2.9rem;
+}
+
+.section-intro {
+	flex: 1;
+	text-align: left;
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.section-email {
+	width: 100%;
+	padding: 0;
+	max-width: 720px;
+	margin: 85px auto 0 auto;
+}
+
+.sp-signup-text strong {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 26px;
+	line-height: 1.4;
+}
+
+.sp-signup-text strong + span {
+	display: block;
+}
+
+[data-theme='light'] .sp-signup-text strong,
+[data-theme='light'] .sp-signup-text strong + span {
+	color: black;
+}
+
+.sp-signup-text,
+.section-intro * {
+	text-align: left;
+}
+
+.section-intro .buttons_src-pages-index-module {
+	justify-content: flex-start;
+}
+
+article[itemprop='blogPost'] footer .text--right a {
+	background: #b2d3ff;
+	padding: 9px 17px 12px;
+	display: block;
+	border-radius: 10px;
+	color: black;
+	line-height: 1;
+}
