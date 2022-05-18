@@ -41,6 +41,11 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			colorMode: {
+				defaultMode: 'dark',
+				disableSwitch: false,
+				respectPrefersColorScheme: false,
+			},
 			blog: {
 				blogSidebarCount: 0,
 				relatedPosts: false,
