@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 <section className="sp-about-inner">
     <div className="sp-about-image">
-        <img src="/img/me-leaves.jpg" alt="Andrew Robbins, creator of Slashproof" />
+        <img src="/img/me-taller.jpg" alt="Andrew Robbins, creator of Slashproof" />
     </div>
 <div>
 

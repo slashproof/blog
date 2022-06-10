@@ -54,7 +54,7 @@ const config = {
 				title: 'Slashproof',
 				logo: {
 					alt: 'Andrew Robbins from Slashproof',
-					src: 'img/me.jpg',
+					src: 'img/me-new.jpg',
 				},
 				items: [
 					{ to: '/blog', label: 'Blog', position: 'right' },
