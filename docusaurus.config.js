@@ -63,7 +63,7 @@ const config = {
 					{
 						label: 'Twitter',
 						position: 'right',
-						to: 'https://twitter.com/slashproofeth',
+						to: 'https://twitter.com/andrewfromtx',
 					},
 				],
 			},
@@ -92,7 +92,7 @@ const config = {
 						items: [
 							{
 								label: 'Twitter',
-								href: 'https://twitter.com/andrewmrobbins',
+								href: 'https://twitter.com/andrewfromtx',
 							},
 							{
 								label: 'Github',
