@@ -7,6 +7,6 @@ hide_table_of_contents: true
 
 If you want to get in touch send me an email: [andrew@slashproof.dev](mailto:andrew@slashproof.dev)
 
-You can also [find me on Twitter](https://twitter.com/slashproofeth)
+You can also [find me on Twitter](https://twitter.com/andrewfromtx)
 
 Thanks!
